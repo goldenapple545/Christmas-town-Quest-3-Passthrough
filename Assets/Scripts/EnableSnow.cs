@@ -43,12 +43,15 @@ public class EnableSnow : MonoBehaviour
             material.SetFloat(SnowIntensity, 0);
         }
     }
+
+    public void StartSnow()
+    {
+        StartCoroutine(SnowOn());
+    }
     
     private void Start()
     {
         FastSnowOff();
-        
-        StartCoroutine(SnowOn());
     }
 
     private void OnDestroy()
