@@ -4,10 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class NPCController : MonoBehaviour
+public class VehicleController : MonoBehaviour
 {
     public NavMeshAgent agent;
-    public Animator animator;
 
     public GameObject path;
     private Transform[] pathPoints;
@@ -17,7 +16,6 @@ public class NPCController : MonoBehaviour
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        animator = GetComponent<Animator>();
 
         pathPoints = new Transform[path.transform.childCount];
         for (int i = 0; i < pathPoints.Length; i++)
@@ -46,6 +44,5 @@ public class NPCController : MonoBehaviour
         }
         
         agent.SetDestination(pathPoints[index].position);
-        animator.SetFloat("vertical", !agent.isStopped ? 1 : 0);
     }
 }
