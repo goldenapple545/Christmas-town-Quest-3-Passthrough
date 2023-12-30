@@ -135,6 +135,7 @@ Library: D:\Unity\Projects\Quest 3 Passthrough\Temp\StagingArea\tempburstlibs\ar
 --compilation-defines=UNITY_INPUT_SYSTEM_ENABLE_PHYSICS2D
 --compilation-defines=UNITY_INPUT_SYSTEM_ENABLE_UI
 --compilation-defines=HAS_SET_LOCAL_POSITION_AND_ROTATION
+--compilation-defines=VISUAL_EFFECT_GRAPH_0_0_1_OR_NEWER
 --compilation-defines=ENABLE_BURST_1_0_0_OR_NEWER
 --compilation-defines=USING_ANIMATION_MODULE
 --compilation-defines=USING_PHYSICS2D_MODULE
@@ -155,6 +156,15 @@ Library: D:\Unity\Projects\Quest 3 Passthrough\Temp\StagingArea\tempburstlibs\ar
 --compilation-defines=OVR_UNITY_ASSET_STORE
 --compilation-defines=OCULUS_XR_ETFR_DELAYED_PERMISSION_REQUEST
 --compilation-defines=OCULUS_XR_3_3_0_OR_NEWER
+--compilation-defines=CINEMACHINE_POST_PROCESSING_V2
+--compilation-defines=CINEMACHINE_TIMELINE
+--compilation-defines=CINEMACHINE_PHYSICS_2D
+--compilation-defines=CINEMACHINE_PHYSICS
+--compilation-defines=CINEMACHINE_UGUI
+--compilation-defines=CINEMACHINE_LWRP_7_3_1
+--compilation-defines=CINEMACHINE_UNITY_INPUTSYSTEM
+--compilation-defines=CINEMACHINE_UNITY_ANIMATION
+--compilation-defines=CINEMACHINE_UNITY_IMGUI
 --compilation-defines=USING_PARTICLE_SYSTEM
 --compilation-defines=INCLUDE_PHYSICS_MODULE
 --compilation-defines=INCLUDE_UGUI
@@ -162,6 +172,12 @@ Library: D:\Unity\Projects\Quest 3 Passthrough\Temp\StagingArea\tempburstlibs\ar
 --compilation-defines=INCLUDE_LEGACY_INPUT_HELPERS
 --compilation-defines=HAS_GET_POSITION_AND_ROTATION
 --compilation-defines=TIMELINE_FRAMEACCURATE
+--compilation-defines=VFX_HAS_TIMELINE
+--compilation-defines=VFX_HAS_TERRAINMODULE
+--compilation-defines=VFX_HAS_UI
+--compilation-defines=VFX_HAS_PHYSICS
+--compilation-defines=VFX_HAS_AUDIO
+--compilation-defines=VFX_HAS_INPUT_SYSTEM_PACKAGE
 --compilation-defines=UNITY_ANALYTICS
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=D:\Unity\Projects\Quest 3 Passthrough\Temp\Burst
