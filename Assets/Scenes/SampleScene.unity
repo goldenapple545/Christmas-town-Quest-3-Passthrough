@@ -28667,6 +28667,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: OVRSceneManager
       objectReference: {fileID: 0}
+    - target: {fileID: 747806495401477014, guid: c813208e672e3074bbe118e1a9ee94fd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 747806495401477035, guid: c813208e672e3074bbe118e1a9ee94fd, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -47533,6 +47537,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 631362833}
     m_Modifications:
     - target: {fileID: 8093047597421554953, guid: 12eb3b87f7ee0aa42b2177fb6452b798, type: 3}
+      propertyPath: VelocityModule.y.scalar
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093047597421554953, guid: 12eb3b87f7ee0aa42b2177fb6452b798, type: 3}
+      propertyPath: VelocityModule.y.minScalar
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093047597421554953, guid: 12eb3b87f7ee0aa42b2177fb6452b798, type: 3}
       propertyPath: InitialModule.maxNumParticles
       value: 10000
       objectReference: {fileID: 0}
@@ -47578,7 +47590,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8093047597421554958, guid: 12eb3b87f7ee0aa42b2177fb6452b798, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.79
+      value: 24.06
       objectReference: {fileID: 0}
     - target: {fileID: 8093047597421554958, guid: 12eb3b87f7ee0aa42b2177fb6452b798, type: 3}
       propertyPath: m_LocalPosition.z
